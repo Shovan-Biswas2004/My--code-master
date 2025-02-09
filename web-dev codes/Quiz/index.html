@@ -6,12 +6,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 </head>
 <body>
-  <div class="quiz">
+  <div >
   <main>
     <h1 class="text-style">welcome to the mytho quiz</h1><hr>
       <section>
         <h2> In this section you will be asked questions related to Mythology and you have to guess them correctly.
         </h2>
+        <div class="image">
         <p>
             <a
                 href="https://en.wikipedia.org/wiki/Hindu_mythology" target="_blank">
@@ -23,23 +24,24 @@
                 </figure>
             </a>
         </p>
+       </div>
       </section>
       <section>
         
         <h2>Here are your questions:</h2>
-        <form action="/web-dev codes/quizanswers.html"></form>
+        <form >
         <fieldset >
           <legend>Who is called the "Kapurgauram"?</legend>
-          <label><input id="Shiva" type="radio" name="Shiva-kama-Durga" value="Shiva" >SHIVA</label>
-          <label><input id="Kama" type="radio" name="Shiva-kama-Durga" value="kama" >KAMA</label>
-          <label><input id="Durga" type="radio" name="Shiva-kama-Durga" value="Durga" >DURGA</label><br>
+          <label><input id="Shiva" type="radio"class="questions" name="Shiva-kama-Durga" value="Shiva" >SHIVA</label>
+          <label><input id="Kama" type="radio" class="questions"name="Shiva-kama-Durga" value="kama" >KAMA</label>
+          <label><input id="Durga" type="radio"class="questions" name="Shiva-kama-Durga" value="Durga" >DURGA</label><br>
         </fieldset>
         
         <fieldset>
-            <legend>Who Was Akshay? </legend>
-            <label><input id="Indra" type="radio" name="Indra-Bali-Ravan" value="Indra">INDRA</label>
-            <label><input id="Ravan" type="radio" name="Indra-Bali-Ravan" value="Ravan">RAVAN</label>
-            <label><input id="Bali" type="radio" name="Indra-Bali-Ravan" value="Bali">BALI</label>
+            <legend>Who Was the father of Akshay? </legend>
+            <label><input id="Indra" type="radio" class="questions"name="Indra-Bali-Ravan" value="Indra">INDRA</label>
+            <label><input id="Ravan" type="radio" class="questions"name="Indra-Bali-Ravan" value="Ravan">RAVAN</label>
+            <label><input id="Bali" type="radio" class="questions"name="Indra-Bali-Ravan" value="Bali">BALI</label>
         </fieldset>
         
         <fieldset>
@@ -47,8 +49,9 @@
             <label><input id="Alcides" type="radio" name ="Alcides-Ovid-Perseus" value="Alcides">ALCIDES</label>
             <label><input id="Ovid" type="radio" name="Alcides-Ovid-Perseus" value="Ovid">OVID</label> 
             <label><input id="Perseus" type="radio" name="Alcides-Ovid-Perseus" value="Perseus">PERSEUS</label>
-        </fieldset>
-        <br><a href="/web-dev codes/quizanswers.html" target="_blank"><button type="Answer"> Answer</button></a><br>
+          </fieldset>
+            <br><a href="/Quiz/quizanswers.html" ><button type="button"> Answer </button></a><br>
+      </form>
       </section>
   </main>
 </div>
